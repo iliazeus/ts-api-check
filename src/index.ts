@@ -7,7 +7,7 @@ export function publicFunction(
 
 export function internalFunction(): void {}
 
-export const publicConst: number = 42;
+export const publicConst: string = "42"; // incompatible with types/index.d.ts!
 export const internalConst: string = "foobar";
 
 export * as submodule from "./submodule";

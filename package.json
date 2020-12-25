@@ -1,0 +1,16 @@
+{
+  "name": "ts-api-check",
+  "description": "a TypeScript type-level programming technique to make designing package APIs easier",
+  "version": "1.0.0",
+  "author": "Ilia Pozdnyakov <ilia.pozdnyakov@ya.ru>",
+  "repository": "https://github.com/iliazeus/ts-module-api-check",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
